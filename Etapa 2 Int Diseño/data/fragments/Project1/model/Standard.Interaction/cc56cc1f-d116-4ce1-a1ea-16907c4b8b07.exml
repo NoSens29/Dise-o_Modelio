@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Interaction" version="4">
+  <OBJECT>
+    <ID name="Interaction" mc="Standard.Interaction" uid="cc56cc1f-d116-4ce1-a1ea-16907c4b8b07"/>
+    <PID name="project1" mc="Standard.Package" uid="1a2cb919-d08a-4681-8dfb-53e60979589a"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[Interaction]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedLine">
+        <OBJECT>
+          <ID name="Lifeline" mc="Standard.Lifeline" uid="c865b281-b456-435f-a4e6-56ad3ba7eea3"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Lifeline]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Standard.Collaboration" uid="e03c47dc-187d-4abb-b198-76bf6cbae2d9"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Interaction Sequence diagram" mc="Standard.SequenceDiagram" uid="205638a9-c78a-4976-b3e4-5f22f97b5dad"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagrama de Clases" version="4">
+  <OBJECT>
+    <ID name="Diagrama de Clases" mc="Standard.Package" uid="1a2cb919-d08a-4681-8dfb-53e60979589a"/>
+    <PID name="Project1" mc="Standard.Project" uid="cbd103ea-451e-4229-a949-51b4eacbe39e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Diagrama de Clases]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="cc56cc1f-d116-4ce1-a1ea-16907c4b8b07"/>
+        <COMPID name="State Machine" mc="Standard.StateMachine" uid="0083a4bd-bdd6-4a14-aab9-c071debef1f9"/>
+        <COMPID name="Interaction1" mc="Standard.Interaction" uid="1eff6282-b0ec-4979-8956-02f9d4557d0d"/>
+        <COMPID name="Interaction2" mc="Standard.Interaction" uid="d9d5057d-a802-4cac-8880-1f80c09f9ee8"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Sistema" mc="Standard.Class" uid="5991707f-9434-46f8-85b8-9a10727605b1"/>
+        <COMPID name="Persona" mc="Standard.Class" uid="b39ccf2a-e83b-4497-9645-852d51c768f5"/>
+        <COMPID name="Reclamo" mc="Standard.Class" uid="d9cdd961-903a-4e41-a5eb-6c4322621354"/>
+        <COMPID name="Cliente" mc="Standard.Class" uid="f4968fd8-2281-4417-aca0-ae7d4992643b"/>
+        <COMPID name="Empleado_PostVenta" mc="Standard.Class" uid="2483ca32-5cb6-434f-9525-8a328dc390f6"/>
+        <COMPID name="Encargado_PostVenta" mc="Standard.Class" uid="4cf11236-42bc-4340-865d-1e9b79b38b9c"/>
+        <COMPID name="Gerente" mc="Standard.Class" uid="b673ae0a-6110-4091-868a-cb178d88405f"/>
+        <COMPID name="Catalogo" mc="Standard.Class" uid="f2917499-bf21-44e5-b2f2-14bb7215702a"/>
+        <COMPID name="Producto" mc="Standard.Class" uid="45386a6d-4203-44f3-a15b-9067ff499c54"/>
+        <COMPID name="InformeEstadistico" mc="Standard.Class" uid="fd6aa3ef-0e25-4f38-8e93-f8b82660e5b1"/>
+        <COMPID name="Manual" mc="Standard.Class" uid="a5d21cfa-b13a-46a7-a6fd-be05efb3283a"/>
+        <COMPID name=" UI.RegistrarReclamo" mc="Standard.Class" uid="e0cac892-db84-4b4f-9844-89e63f953c67"/>
+        <COMPID name="CtrlReclamo" mc="Standard.Class" uid="1bb45e64-f557-453a-aa57-ac3378373830"/>
+        <COMPID name="CtrlSesión" mc="Standard.Class" uid="6c6d08e0-d59d-44cd-83a5-5bccbc0e46af"/>
+        <COMPID name="Tecnico" mc="Standard.Class" uid="f5fff45e-44b6-4cb7-9fe1-93cc5364a802"/>
+        <COMPID name="CtrlInforme" mc="Standard.Class" uid="f71eefc1-04c1-41bb-8d1b-44644136cbf5"/>
+        <COMPID name="UI.Informe" mc="Standard.Class" uid="81862c2a-4db8-47f7-91af-a0d68cdfdca2"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="project1 Class diagram" mc="Standard.ClassDiagram" uid="d31f2913-1727-4995-a4fc-c7197ddb0a79"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

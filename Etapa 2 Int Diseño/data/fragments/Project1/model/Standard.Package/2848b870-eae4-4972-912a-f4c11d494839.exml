@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagrama de Clases - Interacciones" version="4">
+  <OBJECT>
+    <ID name="Diagrama de Clases - Interacciones" mc="Standard.Package" uid="2848b870-eae4-4972-912a-f4c11d494839"/>
+    <PID name="Project1" mc="Standard.Project" uid="cbd103ea-451e-4229-a949-51b4eacbe39e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Diagrama de Clases - Interacciones]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Empleado de PostVenta" mc="Standard.Actor" uid="32f7e2c5-0d78-415e-879b-40f8023a6df6"/>
+        <COMPID name="Cliente" mc="Standard.Actor" uid="f9739b0e-63d0-40f6-b5e8-a6cc2e7cf9a7"/>
+        <COMPID name="Gerente" mc="Standard.Actor" uid="6567b88f-96fa-4d13-8b96-3066011abf31"/>
+        <COMPID name="Encargado PostVenta" mc="Standard.Actor" uid="49b977dd-55d5-4cc3-8df4-238f941dd91f"/>
+        <COMPID name="Descargar Manual" mc="Standard.UseCase" uid="2ebf9bd8-a16c-41ec-b6bc-c8efbd27b00c"/>
+        <COMPID name="Editar Reclamo" mc="Standard.UseCase" uid="1ab7e6f5-fdd2-4fde-88fa-85c463e98924"/>
+        <COMPID name="Eliminar Reclamo" mc="Standard.UseCase" uid="b601ff19-754a-458f-be32-104ebda8d0c3"/>
+        <COMPID name="Consultar Informe Estadistico" mc="Standard.UseCase" uid="98b241f6-906c-4c15-a1d3-2d1389c7e03b"/>
+        <COMPID name="Realizar Reclamo" mc="Standard.UseCase" uid="d7921e87-dee2-406e-b84c-f66b1393092e"/>
+        <COMPID name="Autenticar" mc="Standard.UseCase" uid="38aee237-e474-427c-b903-af468e0273c4"/>
+        <COMPID name="Realizar Diagnostico" mc="Standard.UseCase" uid="efde197a-5896-4c7d-8580-e1954d128940"/>
+        <COMPID name="Registrar Reclamo" mc="Standard.UseCase" uid="d2823170-b95a-469f-a8d2-699fb2c0ab52"/>
+        <COMPID name="Empleado" mc="Standard.Actor" uid="bf06eecd-f3ee-4fa2-b660-f25cb69e5529"/>
+        <COMPID name="Tecnico" mc="Standard.Actor" uid="27bb5c2d-3ea5-4ce2-b21f-252785922ed7"/>
+        <COMPID name="Generar Informe" mc="Standard.UseCase" uid="9b3bb562-76b6-40a1-b222-65e0ee25df65"/>
+        <COMPID name="Ver Detalles de Reclamo" mc="Standard.UseCase" uid="f7d991d1-5827-4bcd-9fee-1d6a4721b134"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Model Use Case diagram" mc="Standard.UseCaseDiagram" uid="6bb00e5e-c7e9-4b28-90f2-c4c346076f5a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,5 @@
+#Sat Nov 16 15:56:49 ART 2019
+org.modelio.diagram.editor.OpenedDiagrams3='Interaction2 Sequence diagram' {15c52d9e-7184-48d1-8580-31ed88101a8a} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams2='Interaction1 Sequence diagram' {3e46405a-029e-4711-b33d-8b0a589c69e5} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams1='Model Use Case diagram' {6bb00e5e-c7e9-4b28-90f2-c4c346076f5a} Standard.UseCaseDiagram
+org.modelio.diagram.editor.OpenedDiagrams0='project1 Class diagram' {d31f2913-1727-4995-a4fc-c7197ddb0a79} Standard.ClassDiagram
